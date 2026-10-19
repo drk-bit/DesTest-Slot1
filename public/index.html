@@ -21,12 +21,28 @@
       padding: 2rem;
       box-sizing: border-box;
     }
+    .pill {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: #ff9f1c;
+      color: #1a1a1a;
+      font-family: system-ui, sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
     blockquote { max-width: 800px; margin: 0; }
     p { font-size: clamp(1.6rem, 4vw, 3rem); font-style: italic; line-height: 1.4; margin: 0 0 1.5rem; }
     footer { font-size: 1.2rem; opacity: 0.8; }
   </style>
 </head>
 <body>
+  <span class="pill">Slot1</span>
   <blockquote>
     <p>“Earth is the cradle of humanity, but one cannot live in a cradle forever.”</p>
     <footer>— Konstantin Tsiolkovsky</footer>
