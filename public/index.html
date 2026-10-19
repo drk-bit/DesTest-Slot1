@@ -22,9 +22,8 @@
       box-sizing: border-box;
     }
     .pill {
-      position: fixed;
-      top: 1rem;
-      right: 1rem;
+      display: inline-block;
+      margin-top: 2rem;
       background: #ff9f1c;
       color: #1a1a1a;
       font-family: system-ui, sans-serif;
@@ -42,10 +41,10 @@
   </style>
 </head>
 <body>
-  <span class="pill">Slot1</span>
   <blockquote>
     <p>“Earth is the cradle of humanity, but one cannot live in a cradle forever.”</p>
     <footer>— Konstantin Tsiolkovsky</footer>
+    <span class="pill">Slot1</span>
   </blockquote>
 </body>
 </html>
